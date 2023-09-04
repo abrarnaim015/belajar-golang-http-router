@@ -31,7 +31,7 @@ router.GET("/products/:id", func(w http.ResponseWriter, r *http.Request, p httpr
 
 - Selain named parameter, ada jg yang bernama `catch all parameter`, yaitu menangkap semua parameter
 - `catch all parameter` harus diawali dgn `*(bintang)`, lalu diikuti dengan nama parameter
-- `catch a;; parameter` harus berada di posisi akhir `URL`
+- `catch all parameter` harus berada di posisi akhir `URL`
 
 ```text
 Pattern <------------> /src/*filepath <------> Params
